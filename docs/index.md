@@ -4,8 +4,7 @@ layout: home
 description: The largest collection of free stuff on the internet!
 
 hero:
-  name: FMHY
-  text: freemediaheckyeah
+  name: freemediaheckyeah
   tagline: The largest collection of free stuff on the internet!
   prelink:
     title: August Updates ✨
@@ -15,8 +14,8 @@ hero:
     alt: FMHY Icon
   actions:
     - theme: brand
-      text: Browse Collection
-      link: /adblockvpnguide
+      text: See Beginners Guide
+      link: /beginners-guide
     - theme: alt
       text: Posts
       link: /posts
@@ -26,25 +25,22 @@ hero:
     - theme: alt
       text: Discord
       link: https://discord.gg/Stz6y6NgNg
-
-features:
-  - title: Movies / TV / Anime
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-projector"><path d="M5 7 3 5"/><path d="M9 6V3"/><path d="m13 7 2-2"/><circle cx="9" cy="13" r="3"/><path d="M11.83 12H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.17"/><path d="M16 16h2"/></svg>
-    link: /videopiracyguide
-    details: Stream, download, torrent and binge all your favourites movies or shows!
-  - title: Music / Podcasts / Radio
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c82fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-drum"><path d="m2 2 8 8"/><path d="m22 2-8 8"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4v7.9"/><path d="M12 14v8"/><path d="M17 13.4v7.9"/><path d="M2 9v8a10 5 0 0 0 20 0V9"/></svg>
-    link: /audiopiracyguide
-    details:  Stream, download and torrent songs, podcasts and more!
-  - title: Games / Emulation
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#49d3e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-swords"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" x2="9" y1="14" y2="18"/><line x1="7" x2="4" y1="17" y2="20"/><line x1="3" x2="5" y1="19" y2="21"/></svg>
-    link: /gamingpiracyguide
-    details: Download and play all your favourite games or emulate some old but gold ones!
-  - title: Book / Comics / Manga
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3ccd93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-marked"><path d="M10 2v8l3-3 3 3V2"/><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>
-    link: /readingpiracyguide
-    details: Whether you're a bookworm, otaku or comic book fan, you'll be able to find your favourite pieces of literature here for free!
 ---
+<p class="text-center text-lg text-gray-500 dark:text-gray-400">Or browse these pages ✨️</p>
+<LinkCard title="Adblocking / Privacy" href="/adblockvpnguide" tags="adblocking" description="Learn how to block ads, trackers and other nasty things." />
+<LinkCard title="Artificial Intelligence" href="/ai" tags="ai" description="Learn how to use AI to make your life easier." />
+<LinkCard title="Movies / TV / Anime" href="/videopiracyguide" tags="movies" description="Stream, download and torrent all your favourite movies or shows!" />
+<LinkCard title="Music / Podcasts / Radio" href="/audiopiracyguide" tags="music" description="Stream, download and torrent songs, podcasts and more!" />
+<LinkCard title="Gaming / Emulation" href="/gamingpiracyguide" tags="gaming,emulation" description="Download and play all your favourite games or emulate some old but gold ones!" />
+<LinkCard title="Books / Comics / Manga" href="/readingpiracyguide" tags="books,manga,comics" description="Whether you're a bookworm, otaku or comic book fan, you'll be able to find your favourite pieces of literature here for free!" />
+<LinkCard title="Downloading" href="/downloadpiracyguide" tags="games,movies" description="Learn how to download movies, tv shows, music, comics, manga, games and more." />
+<LinkCard title="Torrenting" href="/torrentpiracyguide" tags="torrenting" description="Learn how to torrent movies, tv shows, music, comics, manga, games and more." />
+<LinkCard title="Educational" href="/edupiracyguide" tags="educational" description="Learn how to download, torrent and read educational content." />
+<LinkCard title="Android / iOS" href="/android-iosguide" tags="android,apple" description="Learn how to download, torrent and read educational content." />
+<LinkCard title="Linux / MacOS" href="/linuxguide" tags="linux,macos" description="Learn how to download, torrent and read educational content." />
+<LinkCard title="Non-English" href="/non-english" tags="non-english" description="Learn how to download, torrent and read educational content." />
+<LinkCard title="Miscellaneous" href="/miscguide" tags="miscellaneous" description="Learn how to download, torrent and read educational content." />
+<LinkCard title="Tools" href="/system-tools" tags="system,tools" description="Learn how to download, torrent and read educational content." />
 
 <script setup>
 import { onMounted } from 'vue'

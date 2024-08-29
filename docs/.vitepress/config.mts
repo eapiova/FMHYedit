@@ -53,6 +53,9 @@ export default defineConfig({
       .finally(() => consola.success('Success!'))
   },
   vite: {
+    ssr: {
+      noExternal: ['@fmhy/components']
+    },
     optimizeDeps: { exclude: ['workbox-window'] },
     plugins: [
       UnoCSS({
