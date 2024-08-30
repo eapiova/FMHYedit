@@ -57,6 +57,8 @@
     "stylelint": "^16.9.0",
     "stylelint-config-standard-scss": "^13.1.0",
     "unplugin-auto-import": "^0.18.2",
+    "vite-plugin-optimize-exclude": "^0.0.1",
+    "vite-plugin-terminal": "^1.2.0",
     "wrangler": "^3.68.0"
   },
   "pnpm": {

@@ -1,6 +1,8 @@
 import consola from 'consola'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import OptimizeExclude from 'vite-plugin-optimize-exclude'
+import Terminal from 'vite-plugin-terminal'
 import { defineConfig } from 'vitepress'
 import {
   commitRef,
@@ -58,6 +60,11 @@ export default defineConfig({
     },
     optimizeDeps: { exclude: ['workbox-window'] },
     plugins: [
+      OptimizeExclude(),
+      Terminal({
+        console: 'terminal',
+        output: ['console', 'terminal']
+      }),
       UnoCSS({
         configFile: '../unocss.config.ts'
       }),
